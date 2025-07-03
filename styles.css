@@ -156,6 +156,10 @@ button{
     margin: 20px;
     font-size: 20px;
 }
+.wrapper{
+    display: flex;
+    gap: 100px;
+}
 .boxes{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -164,6 +168,7 @@ button{
     margin-left: 40px;
     height: 700px;
     width: 1200px;
+     
     
 }
 .boxes > div{
@@ -172,5 +177,32 @@ button{
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 100%;    
+    width: 100%;  
+    background-color: white;
 }
+.announcents{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 700px;
+    gap: 20px;
+    
+}
+.block,.new-box {
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1; 
+    
+}
+.Trending{
+    width: 300px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+

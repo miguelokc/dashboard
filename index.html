@@ -4,32 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
+
+    <div class = "layout">
+
     <div class="sidebar">
 
         <div class="dashboard">
-            <p>dashboard</p>
             <div class="pic">v</div>
+            <p>Dashboard</p>
         </div>
 
         <div class="group1">
-            <ul>Home</ul>
-            <ul>Profile</ul>
-            <ul>Messages</ul>
-            <ul>History</ul>
-            <ul>Tasks</ul>
-            <ul>Communities</ul>
-            <ul>Home</ul>
+            <li class = "home-item">
+                <i class="fa-solid fa-house"></i>
+                Home
+            </li>
+            <li class = "home-item">
+                <i class="fa-solid fa-user"></i>
+                Profile
+            </li>
+            <li class = "home-item">
+                <i class="fa-solid fa-message"></i>
+                Messages
+            </li>
+            <li class = "home-item">
+                <i class="fa-solid fa-clock"></i>
+                History
+            </li>
+            <li class = "home-item">
+                <i class="fa-solid fa-clipboard"></i>
+                Tasks
+            </li>
+            <li class = "home-item">
+                <i class="fa-solid fa-people-group"></i>
+                Communities
+            </li>
         </div>
         
         <div class="group2">
-            <ul>Settings</ul>
-            <ul>Support</ul>
-            <ul>Privacy</ul>
+            <li class = "home-item">
+                <i class="fa-solid fa-gear"></i>
+                Settings
+            </li>
+            <li class = "home-item">
+                <i class="fa-solid fa-question"></i>
+                Support
+            </li>
+            <li class = "home-item">
+                <i class="fa-solid fa-shield-halved"></i>
+                Privacy
+            </li>
         </div>
 
+    </div>
 
+    <div class = "header">
+        <div class="top">
+            <div class="left-section">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            <form class = "search-box" action = "/search" method = "GET">
+                <input type = "text" name = "q" placeholder="search">
+            </form>
+            </div>
+
+            <div class="top2">
+                <i class="fa-solid fa-bell"></i>
+                <span class="profile-pic">
+                    <img src = "dog.jpg" alt = "user avatar"/>
+                </span>
+                <span class= "profile-name">Miguel Armenta</span>
+            </div>
+            
+        </div>
+        <div class="bottom">
+            <div class="bottom-section">
+                <span class = "profile-pic">
+                  <img src = "dog.jpg" alt = "user avatar"/>
+                </span> 
+                <span class = "profile-name">Miguel Armenta (@miguel)</span>
+            </div>
+            <div class="bottom-section2">
+                <button>News</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+            
+        </div>
+       
+    </div>
+
+    <div class="main-content">
+        <div class="headline">
+            <span class = "</span>
+
+        </div>
+        
 
 
 
@@ -37,5 +110,9 @@
 
 
     </div>
+
+
+    </div>
+    
 </body>
 </html>

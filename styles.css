@@ -3,7 +3,9 @@
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
+.layout{
+    display:flex
+}
 .sidebar{
     background-color: rgb(1, 182, 253);
     color: white;
@@ -16,6 +18,7 @@
     display:flex;
     gap: 30px;
     justify-content: center;
+    padding-top: 30px;
 }
 .group1{
     
@@ -27,6 +30,11 @@
     align-items: center;
     
 }
+.home-item{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
 .group2{
     
     display: flex;
@@ -36,4 +44,91 @@
     justify-content: center;
     align-items: center;
     
+}
+.header{
+    width: 100%;
+    max-width: 100%;
+    
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap:30px;
+    height:75px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    
+}
+.left-section{
+    display: flex;
+    flex: 1;
+    gap: 30px;
+}
+.search-box{
+    display: flex;
+    flex:1;
+}
+.search-box input{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 100%;
+    flex: 1;
+    max-width: none;
+    height: 20px;
+}
+.top2{
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+.profile-pic img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+.bottom{
+   
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+.bottom-section{
+   
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    align-items: center;
+}
+.profile-name{
+    font-size: 25px;
+    font-weight: bold;
+}
+.bottom-section2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   width: 350px;
+   
+    
+}
+button{
+    background-color: #1DA1F2;
+    
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
 }

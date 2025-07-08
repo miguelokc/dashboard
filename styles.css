@@ -192,6 +192,14 @@ button{
     margin-left: 30px;
     margin-top: 5px;
 }
+.icon-group{
+    display: flex;
+    margin-top: auto;
+    margin-left: auto;
+    padding: 30px;
+    gap: 30px;
+    font-size: 25px;
+}
 .announcents{
     
     display: flex;

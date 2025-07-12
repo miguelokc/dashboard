@@ -243,3 +243,16 @@ button{
 .underline{
     font-weight: lighter;
 }
+.username{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-size: 20px;
+}
+.bio-wrapper{
+    margin-left: 20px;
+}
+.username i{
+    font-size: 40px;
+}
